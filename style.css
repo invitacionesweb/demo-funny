@@ -906,6 +906,11 @@ footer p {
 /* ---------- 13. RESPONSIVE Y ACCESIBILIDAD ---------- */
 @media (max-width: 600px) {
   :root {
+    /* textos 10% más grandes en celular */
+    --fs-chico: .99rem;
+    --fs-texto: 1.155rem;
+    --fs-destacado: 1.375rem;
+
     --fs-frase: 1.3rem;
     --fs-subtitulo: 1.75rem;
     --fs-titulo: 2.1rem;
